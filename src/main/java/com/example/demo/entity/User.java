@@ -11,7 +11,7 @@ public class User {
         this.email=email;
         this.password=password;
     }
-    public void setId(int id){
+    public void setId(long id){
         this.id=id;
     }
     public void setName(String name){
@@ -20,5 +20,19 @@ public class User {
     public void setEmail(String email){
         this.email=email;
     }
-    public voidn
+    public void setPassword(String password){
+        this.password=password;
+    }
+    public long getId(){
+        return id;
+    }
+    public String getName(){
+        return name;
+    }
+    public String GetEmail(){
+        return email;
+    }
+    public String GetPassword(){
+        return password;
+    }
 }
