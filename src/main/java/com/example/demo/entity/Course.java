@@ -29,6 +29,21 @@ public class Course {
     public void setSkillTags(String skillTags){
         this.skillTags=skillTags;
     }
+    public long getId() {
+        return id;
+    }
+    public String getCourseCode() {
+        return courseCode;
+    }
+    public String getCourseName() {
+        return courseName;
+    }
+    public String getCategory() {
+        return category;
+    }
+    public String getSkillTags() {
+        return skillTags;
+    }
     
 
 }
