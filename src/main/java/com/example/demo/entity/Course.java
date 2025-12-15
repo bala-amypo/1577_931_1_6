@@ -14,5 +14,20 @@ public class Course {
         this.skillTags=skillTags;
 
     }
-    public void setId()
+    public void setId(long id){
+        this.id=id;
+    }
+    public void setCourseCode(String courseCode){
+        this.courseCode=courseCode;
+    }
+    public void setCourseName(String courseName){
+        this.courseName=courseName;
+    }
+    public void setCategory(String category){
+        this.category=category;
+    }
+    public void setSkillTags(String skillTags){
+        this.skillTags=skillTags;
+    }
+    
 }
